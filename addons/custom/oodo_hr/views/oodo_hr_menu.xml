@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <menuitem
+        id="menu_oodo_hr"
+        name="HR"
+        parent="menu_oodo_root"
+        sequence="10"/>
+
+    <!-- ===================================================== -->
+    <!-- Employee Directory -->
+    <!-- Uses the SAME action as the built-in Employees app -->
+    <!-- ===================================================== -->
+    <menuitem
+        id="menu_oodo_employee_directory"
+        name="Employee Directory"
+        parent="menu_oodo_hr"
+        action="hr.hr_employee_public_action"
+        sequence="1"/>
+
+</odoo>
